@@ -17,10 +17,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/enbonnet/tanstack-theme.git"
+        "url": "https://github.com/enBonnet/tanstack-theme-vscode.git"
     },
     "bugs": {
-        "url": "https://github.com/enbonnet/tanstack-theme/issues"
+        "url": "https://github.com/enBonnet/tanstack-theme-vscode/issues"
     },
     "engines": {
         "vscode": "^1.13.0"

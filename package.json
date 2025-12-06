@@ -10,7 +10,7 @@
         "lint": "node ./scripts/lint.js",
         "package": "vsce package -o ./bin/tanstack.vsix",
         "vscode:prepublish": "npm run build",
-        "vsce-publish": "vsce publish"
+        "vsce:publish": "vsce publish"
     },
     "maintainers": [
         "Ender Bonnet"
@@ -34,7 +34,7 @@
         "theme",
         "color-theme"
     ],
-    "icon": "./images/icon.png",
+    "icon": "images/icon.png",
     "contributes": {
         "themes": [
             {

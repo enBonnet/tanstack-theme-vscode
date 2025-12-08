@@ -1,24 +1,74 @@
-# TanStack Theme for Visual Studio Code
-
 <div align="center">
+<h1>TanStack Theme for Visual Studio Code</h1>
+
+[![Version](https://img.shields.io/visual-studio-marketplace/v/enbonnet.tanstack-theme?style=for-the-badge&label=VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=enbonnet.tanstack-theme)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/enbonnet.tanstack-theme?style=for-the-badge&color=success)](https://marketplace.visualstudio.com/items?itemName=enbonnet.tanstack-theme)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
 <img src="./images/icon.png" alt="TanStack Theme for Visual Studio Code" width="200">
+
 </div>
 
-## Description
+## 📋 Table of Contents
 
-This is the non-official TanStack Theme for Visual Studio Code, inspired by the [TanStack](https://tanstack.com/) brand colors.
+- [✨ Features](#-features)
+- [🎨 Preview](#preview)
+- [🚀 Installation](#-installation)
+- [🎨 Using the Theme](#-using-the-theme)
+- [🎨 Color Palette](#-color-palette)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [💖 Credits](#-credits)
 
-## Preview
+## ✨ Features
 
-### Base
+- 🌙 Dark theme optimized for long coding sessions
+- 🎨 Carefully selected color palette for better code readability
+- 💻 Support for popular programming languages and file types
+- 🖌️ Custom UI theming for a cohesive VS Code experience
+- 🎯 Designed specifically for TanStack developers
+
+## 🎨 Preview
+
+### Base Theme
 <div align="center">
-<img src="./images/screenshots/base.png" alt="TanStack Theme for Visual Studio Code" width="600">
+<img src="./images/screenshots/base.png" alt="TanStack Theme Base" width="600">
 </div>
 
-### Soft
+### Soft Variant
 <div align="center">
-<img src="./images/screenshots/soft.png" alt="TanStack Theme for Visual Studio Code" width="600">
+<img src="./images/screenshots/soft.png" alt="TanStack Theme Soft" width="600">
 </div>
+
+## 🚀 Installation
+
+### VS Code Marketplace
+[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/enbonnet.tanstack-theme?style=for-the-badge&label=VS%20Code%20Marketplace&color=blue)](https://marketplace.visualstudio.com/items?itemName=enbonnet.tanstack-theme)
+
+### Open VSX Registry
+[![Open VSX Registry](https://img.shields.io/open-vsx/v/enBonnet/tanstack-theme?style=for-the-badge&label=Open%20VSX%20Registry&color=blue)](https://open-vsx.org/extension/enBonnet/tanstack-theme)
+
+## 🎨 Using the Theme
+
+1. Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`)
+2. Type "Preferences: Color Theme" and press Enter
+3. Search for "TanStack Theme"
+4. Select either "TanStack Theme" or "TanStack Theme (Soft)" from the list
+
+### Recommended Settings
+
+For the best experience, add these to your `settings.json`:
+
+```json
+{
+  "workbench.colorTheme": "TanStack Theme",
+  "editor.fontFamily": "'Fira Code', 'Dank Mono', 'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "smooth",
+}
+```
+
+## 🎨 Color Palette
 
 ## Color Palette
 
@@ -47,7 +97,27 @@ This theme uses a tropical-inspired color palette derived from the TanStack bran
 | BGLight | `#163845` | Lighter panels |
 | BGLighter | `#1E4555` | Hover states/highlights |
 
-## Installation
+## 🤝 Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to:
+
+1. Open an [issue](https://github.com/enbonnet/tanstack-theme-vscode/issues)
+2. Submit a pull request
+3. Share your feedback
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 💖 Credits
+
+- Inspired by the beautiful TanStack brand colors and design
+- Special thanks to the VS Code community for their amazing theming support
+- Thanks to all contributors who help improve this theme
+
+## 📬 Stay Updated
+
+For updates, star this repository and follow me on [GitHub](https://github.com/enbonnet).
 
 ### From VS Code Marketplace
 
